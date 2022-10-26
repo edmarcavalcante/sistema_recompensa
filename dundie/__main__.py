@@ -3,3 +3,6 @@
 # na linha de comando.
 
 # Entry Point é o arquivo principal do projeto
+
+def main():
+    print("Executing dundie from entry point.")
