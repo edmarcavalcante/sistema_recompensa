@@ -8,8 +8,7 @@
 # é mais fácil de  utilizar. Com ele não precisamos fazer algumas validações
 # dos parâmetros passados. Ela estrutura os argumentos passados 
 import argparse
-import re
-from unicodedata import name 
+
 
 # First function that read the data.
 def load(filepath):
