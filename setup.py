@@ -22,6 +22,18 @@ setup(
         "console_scripts": [
             "dundie = dundie.__main__:main"
             ]
-    } # metadado de configuração para criar comando CIL (linha de comando).
+    }
+     # metadado de configuração para criar comando CIL (linha de comando).
 
+    install_requires=[] # O controle de dependências também é feito no arquivo setup.py
+    extras_require={
+        "test": [
+            "pytest"
+        ],
+        "dev": [
+            "ipdb",
+            "ipython",
+            "pudb"
+        ],
+    }
 )
